@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario y Asignar Privilegios</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <style>
+        form {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 8px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        label, input[type="checkbox"] {
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<a href="menu_administrador.html"><img src="img/regreso.png" alt="Logo" class="logo"></a>
+    <center><h1>Crear Usuario y Asignar Privilegios</h1></center>
+
+    <form action="crear_usuario.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label>Privilegios:</label><br>
+        <input type="checkbox" id="select_priv" name="privilegios[]" value="SELECT">
+        <label for="select_priv">SELECT</label><br>
+
+        <input type="checkbox" id="insert_priv" name="privilegios[]" value="INSERT">
+        <label for="insert_priv">INSERT</label><br>
+
+        <input type="checkbox" id="update_priv" name="privilegios[]" value="UPDATE">
+        <label for="update_priv">UPDATE</label><br>
+
+        <input type="checkbox" id="delete_priv" name="privilegios[]" value="DELETE">
+        <label for="delete_priv">DELETE</label><br>
+
+        <input type="checkbox" id="create_priv" name="privilegios[]" value="CREATE">
+        <label for="create_priv">CREATE</label><br>
+
+        <input type="checkbox" id="drop_priv" name="privilegios[]" value="DROP">
+        <label for="drop_priv">DROP</label><br>
+
+        <input type="checkbox" id="grant_priv" name="privilegios[]" value="GRANT">
+        <label for="grant_priv">GRANT</label><br><br>
+
+        <input type="submit" value="Crear Usuario">
+    </form>
+
+</body>
+</html>

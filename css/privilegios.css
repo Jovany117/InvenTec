@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+select,
+input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #52d858;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] + label {
+    margin-left: 10px;
+    color: #333;
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+
+.button2 {
+    padding: 10px 20px;
+    background-color: #0256ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button2[type="submit"]:hover {
+    background-color: #32b7dc;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* ajusta el tamaño según tus necesidades */
+    height: auto;
+}

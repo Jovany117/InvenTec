@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="css/style.css">
+    <title>Inicio de Sesión</title>
+</head>
+
+<body>
+    
+    <div class="panel">
+        <a href="Principal.html"><img src="img/regreso.png" alt="Logo" class="logo"></a>
+        <h2>Iniciar Sesión administrador</h2>
+        <form action="login.php" method="post">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="captcha">Captcha:</label>
+            <input type="text" id="captcha" name="captcha" required><br><br>
+            <img src="captcha.php" alt="Captcha"><br><br> <!-- Mostrar la imagen de captcha -->
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+        <a href="crearusuario.html" class="button">Crear Usuario</a>
+    </div>
+    
+    
+</body>
+
+</html>

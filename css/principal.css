@@ -1,0 +1,82 @@
+body {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header img {
+    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.perfil {
+    margin-bottom: 20px;
+}
+
+.perfil button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.perfil button:hover {
+    background-color: #0056b3;
+}
+
+.administrador {
+    background-image: url('/img/regreso.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px; /* Tamaño de la imagen */
+    background-position: 10px center; /* Posición de la imagen */
+    padding-left: 40px; /* Ajusta según el tamaño de la imagen */
+}
+
+.ventas {
+    background-image: url('ruta/a/la/imagen_ventas.jpg');
+    background-repeat: no-repeat;
+    background-size: 20px 20px; /* Tamaño de la imagen */
+    background-position: 10px center; /* Posición de la imagen */
+    padding-left: 40px; /* Ajusta según el tamaño de la imagen */
+}
+
+.analista {
+    background-image: url('ruta/a/la/imagen_analista.jpg');
+    background-repeat: no-repeat;
+    background-size: 20px 20px; /* Tamaño de la imagen */
+    background-position: 10px center; /* Posición de la imagen */
+    padding-left: 40px; /* Ajusta según el tamaño de la imagen */
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* ajusta el tamaño según tus necesidades */
+    height: auto;
+}

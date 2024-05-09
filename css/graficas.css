@@ -1,0 +1,30 @@
+body{
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body, html {
+
+    
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    max-width: 600px; /* Define el ancho máximo del canvas */
+    max-height: 400px; /* Define la altura máxima del canvas */
+    width: 100%; /* Haz que el canvas ocupe todo el ancho disponible */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* ajusta el tamaño según tus necesidades */
+    height: auto;
+}

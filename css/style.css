@@ -1,0 +1,123 @@
+body {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.panel {
+    width: 300px;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #3498db;
+    color: rgba(255, 255, 255, 0.482);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #2980b9;
+}
+h2 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.76);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+    margin-top: 10px;
+}
+a:hover {
+    color: #333;
+}
+
+.button2 {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #d92929;
+    color: rgba(255, 255, 255, 0.482);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button2:hover {
+    background-color: #cc5a5a;
+}
+
+.button3 {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #5f0b7b;
+    color: rgba(255, 255, 255, 0.482);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button3:hover {
+    background-color: #8354b1;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* ajusta el tamaño según tus necesidades */
+    height: auto;
+}

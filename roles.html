@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Perfiles</title>
+    <link rel="stylesheet" href="css/roles.css"> <!-- Enlaza tu hoja de estilos CSS aquí -->
+</head>
+<body>
+    <div class="container">
+        <a href="index.html"><img src="img/regreso.png" alt="Logo" class="logo"></a>
+        <h1>Gestión de Perfiles</h1>
+        
+        <!-- Formulario para crear un nuevo perfil -->
+        <form action="crearperfil.php" method="POST">
+            <h2>Crear Nuevo Perfil</h2>
+            <label for="nombre_perfil">Nombre del Perfil:</label>
+            <input type="text" id="nombre_perfil" name="nombre_perfil" required>
+            <button type="submit">Crear Perfil</button>
+
+
+          
+                    
+        </form>
+        <br>
+        <a href="privilegios.html" class="button"><button class="button2" type="submit" style="color: aliceblue;">Asignar roles</button></a>
+    </div>
+</body>
+</html>
